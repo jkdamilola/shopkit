@@ -1040,23 +1040,18 @@ ajv@^6.1.0:
     json-schema-traverse "^0.4.1"
     uri-js "^4.2.2"
 
-algolia-aerial@^1.5.3:
-  version "1.5.3"
-  resolved "https://registry.yarnpkg.com/algolia-aerial/-/algolia-aerial-1.5.3.tgz#c8b8ca6bc484164ffc7b36717689a424ea6bfe6c"
-  integrity sha512-LZTpVlYnhqNFd+ru/Spm73omhsagiRQLmjrosa5bJ6/I9OMRp4Sb9pYZkAxcx3RSr+ZNXZqthL7rpXqMFdrnPA==
-
-algolia-places-react@1.4.1:
-  version "1.4.1"
-  resolved "https://registry.yarnpkg.com/algolia-places-react/-/algolia-places-react-1.4.1.tgz#902e583d879025118bb417913db45097501c618b"
-  integrity sha512-IQJsQUc6IKNmO3ThknogNvnFLjTjssDzhGvcAnox6x9t7skN+W5YhY7V8u5hQgQeILe4SBTmbqfiMCkvHGR+eA==
+algolia-places-react@1.5.1:
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/algolia-places-react/-/algolia-places-react-1.5.1.tgz#29745a5f30c295d5364066df610da01406efc99a"
+  integrity sha512-x2pECaDI8F6tbCJvN3Ad6pOgtE8eUrB/sPXbnI0aXLKtBqjctFhhSv4kgAIn16QDr4wW7AQz9OZadLtTBGUYig==
   dependencies:
-    places.js "1.16.4"
+    places.js "1.17.1"
     prop-types "^15.6.0"
 
-algoliasearch@^3.31.0:
-  version "3.32.1"
-  resolved "https://registry.yarnpkg.com/algoliasearch/-/algoliasearch-3.32.1.tgz#605f8a2c17ab8da2af4456110f4d0a02b384e3d0"
-  integrity sha512-NaaHMboU9tKwrU3aim7LlzSDqKb+1TGaC+Lx3NOttSnuMHbPpaf+7LtJL4KlosbRWEwqb9t5wSYMVDrPTH2dNA==
+algoliasearch@^3.35.1:
+  version "3.35.1"
+  resolved "https://registry.yarnpkg.com/algoliasearch/-/algoliasearch-3.35.1.tgz#297d15f534a3507cab2f5dfb996019cac7568f0c"
+  integrity sha512-K4yKVhaHkXfJ/xcUnil04xiSrB8B8yHZoFEhWNpXg23eiCnqvTZw1tn/SqvdsANlYHLJlKl0qi3I/Q2Sqo7LwQ==
   dependencies:
     agentkeepalive "^2.2.0"
     debug "^2.6.9"
@@ -1237,10 +1232,10 @@ atob@^2.1.1:
   resolved "https://registry.yarnpkg.com/atob/-/atob-2.1.2.tgz#6d9517eb9e030d2436666651e86bd9f6f13533c9"
   integrity sha512-Wm6ukoaOGJi/73p/cl2GvLjTI5JM1k/O14isD73YML8StrH/7/lRFgmg8nICZgD3bZZvjwCGxtMOD3wWNAu8cg==
 
-autocomplete.js@^0.36.0:
-  version "0.36.0"
-  resolved "https://registry.yarnpkg.com/autocomplete.js/-/autocomplete.js-0.36.0.tgz#94fe775fe64b6cd42e622d076dc7fd26bedd837b"
-  integrity sha512-jEwUXnVMeCHHutUt10i/8ZiRaCb0Wo+ZyKxeGsYwBDtw6EJHqEeDrq4UwZRD8YBSvp3g6klP678il2eeiVXN2Q==
+autocomplete.js@^0.37.0:
+  version "0.37.0"
+  resolved "https://registry.yarnpkg.com/autocomplete.js/-/autocomplete.js-0.37.0.tgz#bcfbfd7bcabe90e90fad4c2b1aaa931379a10c38"
+  integrity sha512-MxYfNb89sl7IRhNdEJv6z8dSfA7lVeU7Dk6m/+/ih0/tPLsbxIM7uPVsnWEUh4j7dFqJktlM7hCeU7jmx6VC8A==
   dependencies:
     immediate "^3.2.3"
 
@@ -4681,14 +4676,13 @@ pkg-dir@^3.0.0:
   dependencies:
     find-up "^3.0.0"
 
-places.js@1.16.4:
-  version "1.16.4"
-  resolved "https://registry.yarnpkg.com/places.js/-/places.js-1.16.4.tgz#96616ce63dc675c2e60aa016633a03e9e43b2c86"
-  integrity sha512-W0AMzQyy/SD5MS6DmDuIbXJXUJ/tuBidYLywOJwPCDBz+MowPOoRaallSWgt/QwiJFDFYCePMAGMVAfW+eO5Tg==
+places.js@1.17.1:
+  version "1.17.1"
+  resolved "https://registry.yarnpkg.com/places.js/-/places.js-1.17.1.tgz#fc6ef07f5ee87ec332820d7d03ac4c894a8ff764"
+  integrity sha512-TzDw893Uo3121vmEg0oV5L0HVbxcHUyanaSmnwcMs0Zll1F83/06lNJRcMiiuwNQWIik6xY3BeDDZzpaMaOILA==
   dependencies:
-    algolia-aerial "^1.5.3"
-    algoliasearch "^3.31.0"
-    autocomplete.js "^0.36.0"
+    algoliasearch "^3.35.1"
+    autocomplete.js "^0.37.0"
     events "^3.0.0"
     insert-css "^2.0.0"
 
